@@ -1,8 +1,26 @@
-layout_spectrum: 0.6569651
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.1893001
 color:
   saturation: 0.4119425
   lightness: 0.7610164
-  brandStrength: 0.01677697
+  brandStrength: 0
+  brandColors:
+    - '#333436'
+    - '#E7E7E7'
+    - '#B3B4B6'
+    - '#929395'
+    - '#1E130B'
   rhythmicContrast: 0.02793052
+layout_spectrum: 0.1869773
 name: Aveccinta
